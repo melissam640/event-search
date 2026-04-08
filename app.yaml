@@ -4,5 +4,17 @@ entrypoint: cd back-end && npm start
 env: standard
 
 handlers:
+  - url: /search
+    static_files: front-end/dist/index.html
+    upload: front-end/dist/index.html
+  
+  - url: /favorites
+    static_files: front-end/dist/index.html
+    upload: front-end/dist/index.html
+
+  - url: /event/\d+
+    static_files: front-end/dist/index.html
+    upload: front-end/dist/index.html
+    
   - url: /.*
     script: auto
