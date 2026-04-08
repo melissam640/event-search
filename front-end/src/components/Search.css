@@ -1,0 +1,28 @@
+span.required {
+  display: inline;
+  color: #CE2C31;
+  margin-left: 2px;
+}
+
+span.not-required {
+  display: none;
+}
+
+.label-invalid {
+  color: #CE2C31;
+}
+
+.input-invalid {
+  border: 1px solid #CE2C31 !important;
+  box-shadow: 0 0 0 4px rgba(206,44,49,0.08);
+}
+
+.error-text {
+  color: #CE2C31;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.search-button-container {
+  margin-bottom: 26px;
+}

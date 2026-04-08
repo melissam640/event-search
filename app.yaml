@@ -1,0 +1,8 @@
+runtime: nodejs24
+entrypoint: cd back-end && npm start
+
+env: standard
+
+handlers:
+  - url: /.*
+    script: auto

@@ -1,0 +1,8 @@
+#suggestion-item {
+  border-radius: 5px;
+}
+
+#suggestion-item:hover {
+  background-color: #EEEEEE;
+  cursor: pointer;
+}

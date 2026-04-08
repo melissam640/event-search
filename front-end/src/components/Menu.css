@@ -1,0 +1,38 @@
+.menu {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-bottom: solid 2px #EEEEEE;
+}
+
+.nav-button {
+  background: none;
+  text-align: center;
+  color: grey;
+}
+
+.nav-button:hover {
+  color: black;
+}
+
+.nav-button-selected {
+  background: none;
+  text-align: center;
+  color: black;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-button, .nav-button-selected {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}

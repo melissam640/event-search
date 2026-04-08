@@ -1,0 +1,13 @@
+.artist-image {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-4);
+}
+
+.album-image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  background-color: var(--gray-5);
+}

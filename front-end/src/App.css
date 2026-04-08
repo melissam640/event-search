@@ -1,0 +1,21 @@
+.result-card:hover {
+  cursor: pointer;
+}
+
+.event-image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  background-color: var(--gray-5);
+}
+
+.badge-container {
+  position: absolute;
+  width: 95%;
+}
+
+.event-badge {
+  background-color: white;
+  color: black;
+}

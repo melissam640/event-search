@@ -1,0 +1,14 @@
+.back-button {
+  display: flex;
+  align-items: center;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
+.segmented-item--disabled {
+  opacity: 0.45;
+  pointer-events: none;
+  cursor: not-allowed;
+}

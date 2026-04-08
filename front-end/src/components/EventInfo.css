@@ -1,0 +1,7 @@
+.seatmap-image {
+  object-fit: contain;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #EEEEEE;
+  border-radius: var(--radius-4);
+}
